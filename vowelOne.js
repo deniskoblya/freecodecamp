@@ -12,7 +12,7 @@ function vowelOne(s) {
   let arr = s.toLowerCase().split("");
   let zeroOne = "";
   arr.forEach((e) => {
-    if (e != "a" && e != "e" && e != "i" && e != "o" && e != "u" && e != "y") {
+    if (e != "a" && e != "e" && e != "i" && e != "o" && e != "u") {
       zeroOne += 0;
     } else {
       zeroOne += 1;
